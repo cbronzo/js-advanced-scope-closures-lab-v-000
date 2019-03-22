@@ -3,8 +3,11 @@
 
 
 
-
-
+function produceTipCalculator(percentTipSelected){
+  return function(totalBill) {
+    return totalBill * percentTipSelected
+  }
+}
 
 
 function createDriver() {
